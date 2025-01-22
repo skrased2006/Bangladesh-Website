@@ -1,0 +1,89 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bangladesh{
+    font-weight: 700;
+    font-size: 28px;
+    margin-left:50px ;
+}
+
+.sign{
+    height: 52px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 106, 80);
+    
+
+}
+/* banner section style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    height: auto;
+    padding: 80px 100px;
+    border-radius: 24px;
+    gap: 64px;
+}
+.banner-btn{
+    background-color:rgb(0, 106, 80) ;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+}
+.banner-description{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgb(14, 14, 14);
+}
+/* shared style */
+.dark-1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+}
+
+
+.pilar{
+    margin-top: 50px;
+}
+
+.box-container{
+    display: flex;
+    gap: 24px;
+}
+.box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+.title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
