@@ -215,3 +215,56 @@ border: none;
     padding: 10px 20px;
     color: white;
 }
+.hide{
+    display: none;
+}
+
+/* responsive section */
+
+@media screen and (max-width:576px) {
+    .card-container,
+    .box-container{
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+    }
+    .description{
+        font-size: 10px;
+        text-align: center;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .dark-1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .card-btn-1,.card-btn-2,.card-btn-3{
+        font-size: 10px;
+    }
+  .banner{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   padding: 25px 10px;
+  }
+  .banner-title{
+    font-size: 10px;
+  }
+  .banner-description{
+    font-size: 35px;
+    padding: 25px;
+    text-align: left;
+  }
+  .banner-image{
+    width: 70%;
+  }
+  .news-box{
+    flex-direction: column;
+  }
+  .donate{
+    flex-direction: column;
+  }
+  .image{
+    width: 90%;
+  }
+}
